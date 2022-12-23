@@ -1,0 +1,36 @@
+body{
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  /* Medidas Absolutas
+  cm, mm, in, px, pt, pc
+
+  Medidas Relativas
+  em, ex, rem, vw, vh, %
+  16px geralmente = 1em
+
+  */
+  font-size: 16px;
+  font-weight: 100 - 900;
+  /* lighter normal bold bolder */
+  /* pode tambem colocar variação numerica, de 100 até 900 */
+  /* nem todas fontes tem tanta variação de peso assim*/
+  font-style: normal;
+  text-decoration: underline ;
+}
+
+h1 {  
+  /* Shorthand font
+  Ordem: font-style/font-weight/font-size/font-family
+
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+  font-style: italic;
+
+  Esse exemplo fica da seguinte forma abaixo */
+
+  font: italic bolder 3em 'Work Sans', sans-serif;     
+}
+
+h2{
+  font: bold 2em 'Work Sans'
+}

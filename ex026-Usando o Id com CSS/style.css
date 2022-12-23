@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+     em HTML é id    = em CSS é #
+     em HTML é class    = em CSS é .
+*/ 
+
+body{
+  background-color: rgba(83, 145, 83, 0.603);
+  font-family:Arial, Helvetica, sans-serif
+}
+
+h1{
+  color: rgba(172, 255, 47, 0.767);
+}
+
+h1#principal{
+  /* h1#principal significa que vai herdar o que esta na camada acima, e sobrepor com mais informações. */
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
+h2{
+  color: rgba(172, 255, 47, 0.705);
+}
+
+.basico{
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.intermediario{
+  text-align: center;
+  background-color: rgb(25, 0, 255);
+  color: white;
+}
+
+.avancado{
+  text-align: center;
+  background-color: rgb(251, 255, 0);
+  color: white;
+}
+
+.destaque{
+  background-color: rgba(170, 170, 40, 0.527);
+}

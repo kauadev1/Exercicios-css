@@ -1,0 +1,13 @@
+div{
+  display: inline-block;
+  background-color: lightgrey;
+  border: 1px solid black;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+} 
+
+div:hover {
+  /* 'hover' signifa -> quando voce passar o mouse por cima */
+  background-color: yellow;
+}

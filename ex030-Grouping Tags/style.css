@@ -1,0 +1,60 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: dimgray;
+  margin: 10px;
+}
+
+header{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav{
+  background-color: rgb(133, 133, 133);
+  padding: 3px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+nav > a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+main{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 1px;
+}
+
+article{
+  background-color: lightgray;
+  padding: 5px;
+}
+
+article > aside {
+  background-color: rgb(179, 179, 179);
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin: 0px;
+}
+
+footer > p{
+  margin: 0px;
+}
+
+div#bola{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
