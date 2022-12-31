@@ -2,9 +2,25 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+  text-align: center;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+}
+
 table{
   width: 500px;
   border-collapse: collapse;
+}
+
+caption{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  background-color: aliceblue;
 }
 
 td, th{

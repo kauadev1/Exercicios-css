@@ -12,6 +12,7 @@
   <!--
     ANATOMIA PARA TABELAS GRANDES
     TABLE 
+      CAPTION
       THEAD
           TR, TD, TH
       TBODY
@@ -19,11 +20,13 @@
       TFOOT
           TR, TD, TH
   -->
+  <div>
   <table>
+    <caption>População das Unidades Federativas</caption>
     <thead>
       <tr>
-          <th>Estado</th>
-          <th>População</th>
+          <th scope="col">Estado</th>
+          <th scope="col" style="width: 50px;">População</th>
           <th>% da pop. total</th>
           <th>País comparável</th>
       </tr>
@@ -92,12 +95,13 @@
     </tbody>
     <tfoot>
       <tr>
-        <th>Total de habitantes</th>
+        <th scope="row">Total de habitantes</th>
         <td class="num"><strong>210 147 125</strong></td>
         <td>100%</td>
         <td>-</td>
       </tr>
     </tfoot>
   </table>
+  </div>
 </body>
 </html>
