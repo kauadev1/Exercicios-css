@@ -20,7 +20,6 @@ caption{
   font-size: 1.5em;
   font-weight: bold;
   padding: 10px;
-  background-color: aliceblue;
 }
 
 td, th{
@@ -29,8 +28,18 @@ td, th{
 }
 
 thead, tfoot{
-  background-color: lightgrey;
+  background-color: darkgrey;
   color: white;
+}
+
+tbody > tr:nth-child(odd) { /* 2n-1*/
+  background-color: rgb(241, 241, 241);
+  font-weight: bold;
+}
+
+tbody > tr:nth-child(even) { /* 2n*/
+  background-color: lightgray;
+  text-decoration: underline;
 }
 
 td.num{
