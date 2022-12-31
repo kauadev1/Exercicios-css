@@ -36,3 +36,15 @@ thead, tfoot{
 td.num{
   text-align: right;
 }
+
+td.por{
+  text-align: center;
+}
+
+td.pas{
+  text-align: center;
+}
+
+tfoot td.num{
+  width: 100px;
+}
